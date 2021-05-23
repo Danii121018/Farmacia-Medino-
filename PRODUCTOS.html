@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PAGINA DE PRODUCTOS</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/templatemo-style.css" />
+    
+  </head>
+<style>
+ li{
+ display:inline-block;
+ 
+ 
+ margin-right:60px;
+}
+#search-box {
+	border-style: solid;
+	border-width: 3px;
+	display: block;
+	font-size: 14px;
+	font-weight: 700;
+	height: 24px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 300px;
+	text-align: center;
+	width: 50%;
+}
+
+
+</style>
+  <body id="producto">
+  <div class="parallax-window" data-parallax="scroll" data-image-src="img/aja.jpg">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-11">
+            <div class="tm-brand-container tm-bg-white-transparent">
+              <img src="img/vitaminas.png" width="100" height="100" alt="">
+              <div class="tm-brand-texts">
+                <h1 class="text-uppercase tm-brand-name">PRODUCTOS</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-1">
+            <div class="tm-nav">
+              <nav class="navbar navbar-expand-lg navbar-light tm-bg-white-transparent tm-navbar">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item dropdown">
+                                <img src="img/cart.jpeg" class="nav-link dropdown-toggle img-fluid" height="100px"
+                                    width="80px" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false"></img>
+                                <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
+                                    <table id="lista-carrito" class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="btn btn-primary btn-block">Vaciar Carrito</a>
+                                    <a href="#" id="procesar-pedido" class="btn btn-danger btn-block">Procesar
+                                        Compra</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <div class="tm-nav-link-highlight"></div>
+                      <a class="nav-link" href="index.html"
+                        >INICIO</a
+                      >
+                    </li>
+                    <li class="nav-item green-highlight active">
+                      <div class="tm-nav-link-highlight"></div>
+                      <a class="nav-link" href="#">PRODUCTOS <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <div class="tm-nav-link-highlight"></div>
+                      <a class="nav-link" href="PROMOCIONES.html">PROMOCIONES</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        <!-- About -->
+        <section class="row" id="lista-productos">
+          <header class="col-12 tm-about-header">
+            <h5 class="text-uppercase text-center text-dark tm-about-page-title tm-bg-white-transparent"><BR>
+              <div id="title">
+                <center><h5>Busca un Producto Ingresando su Nombre Aqui</h5></center>
+                <input id="search-box" type="text" name="search">
+              </div>
+              <br>
+            </h5>
+            <hr class="tm-about-title-hr">
+          </header>
+          <div class="wrapper">
+			
+      <br><br><br>
+			<div id="directory-cont">
+       
+				<ul id="directory">
+          
+          
+					<li>  
+                      
+        <div class="tm-bg-black-transparent tm-about-box tar" align="center">	<img src="img/aspirinaJPG.jpg" width="200" height="200" alt="">
+          <br>
+          <br>
+        <div class="container" align="center"><h3><p class="name tm-about-name text-center">ASPIRINA</p></h3></div>
+							<br>
+        <p class="tm-about-description">
+          Medicamento para tratar el dolor, la fiebre y la inflamación.
+          </p>
+          <br>
+          <br>
+          <h1 class="card-title pricing-card-title precio">$/. <span class="">2.50</span></h1>
+          <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+						</div>
+					</li>
+          <li>  
+                      
+            <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/alegraJPG.jpg" width="200" height="200" alt="">
+              <br>
+              <br>
+            <div class="container" align="center"><h3><p class="name tm-about-name text-center">ALEGRA</p></h3></div>
+                  
+            <p class="tm-about-description">
+              Medicamento especialmente para las alergias, ya sea por el clima o causado por un medicamento.
+              </p>
+              <br>
+              <br>
+              <h1 class="card-title pricing-card-title precio">$/. <span class="">7.50</span></h1>
+              <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                </div>
+              </li>
+              <li>  
+                      
+                <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/entorrogermina.jpg" width="250" height="170" alt="">
+                  <br>
+                  <br>
+                <div class="container" align="center"><h3><p class="name tm-about-name text-center">ENTEROGERMINA</p></h3></div>
+                      
+                <p class="tm-about-description">
+                  Medicamento cuya formulación consiste en suspensión de esporas restaurando el equilibrio de la flora intestinal. 
+                  </p>
+                  <br>
+                  <br>
+                  <h1 class="card-title pricing-card-title precio">$/. <span class="">12.20</span></h1>
+                  <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                    </div>
+                  </li>
+                  <li>  
+                      
+                    <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/anemiaJPG.jpg" width="200" height="200" alt="">
+                      <br>
+                      <br>
+                    <div class="container" align="center"><h3><p class="name tm-about-name text-center">VITAMIN-12</p></h3></div>
+                          
+                    <p class="tm-about-description">
+                      Vitamina especialmente para diabeticos, aumenta las defensas y evita cualquier enfermedad. 
+                      </p>
+                      <br>
+                      <br>
+                      <h1 class="card-title pricing-card-title precio">$/. <span class="">16.00</span></h1>
+                      <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                        </div>
+                      </li>
+                      <li>  
+                      
+                        <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/abrilarJPG.jpg" width="200" height="200" alt="">
+                          <br>
+                          <br>
+                        <div class="container" align="center"><h3><p class="name tm-about-name text-center">ABRILAR</p></h3></div>
+                              
+                        <p class="tm-about-description">
+                          Solución expectorante de origen natural, cuya sustancia activa aislada y purificada de Hedera helix.  
+                          </p>
+                          <br>
+                          <br>
+                          <h1 class="card-title pricing-card-title precio">$/. <span class="">8.00</span></h1>
+                          <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                            </div>
+                          </li>
+                          <li>  
+                      
+                            <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/colonJPG.jpg" width="200" height="200" alt="">
+                              <br>
+                              <br>
+                            <div class="container" align="center"><h3><p class="name tm-about-name text-center">KIJIMEA</p></h3></div>
+                                  
+                            <p class="tm-about-description">
+                              Medicamento especialmente para problemas del colon irritable, es un aliado seguro para este malestar.
+                              </p>
+                              <br>
+                              <br>
+                              <h1 class="card-title pricing-card-title precio">$/. <span class="">16.20</span></h1>
+                              <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                                </div>
+                              </li>
+                              <li>  
+                      
+                                <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/gastritisJPG.jpg" width="200" height="200" alt="">
+                                  <br>
+                                  <br>
+                                <div class="container" align="center"><h3><p class="name tm-about-name text-center">GASTRICARE</p></h3></div>
+                                      
+                                <p class="tm-about-description">
+                                  Medicamento especialmente para los malestares estomacales podrucidos por la gatristis.
+                                  </p>
+                                  <br>
+                                  <br>
+                                  <h1 class="card-title pricing-card-title precio">$/. <span class="">21.50</span></h1>
+                                  <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                                    </div>
+                                  </li>
+                                  <li>  
+                      
+                                    <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/caspaJPG.jpg" width="200" height="200" alt="">
+                                      <br>
+                                      <br>
+                                    <div class="container" align="center"><h3><p class="name tm-about-name text-center">BIOTIN</p></h3></div>
+                                          
+                                    <p class="tm-about-description">
+                                      Shampoo especialmente para controlar el exceso de caspa, puede usarlo hombre y mujer.  
+                                      </p>
+                                      <br>
+                                      <br>
+                                      <h1 class="card-title pricing-card-title precio">$/. <span class="">7.60</span></h1>
+                                      <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                                        </div>
+                                      </li>
+                                      <li>  
+                      
+                                        <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/gripeniñosPNG.png" width="200" height="200" alt="">
+                                          <br>
+                                          <br>
+                                        <div class="container" align="center"><h3><p class="name tm-about-name text-center">SUDAGRIP-NIÑOS</p></h3></div>
+                                              
+                                        <p class="tm-about-description">
+                                          Medicamento especialmente para los malestares de la gripe en niños, con sabor a cereza. 
+                                          </p>
+                                          <br>
+                                          <br>
+                                          <h1 class="card-title pricing-card-title precio">$/. <span class="">5.90</span></h1>
+                                          <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                                            </div>
+                                          </li>
+                                          <li>  
+                      
+                                            <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/sudagripeJARABEpng.png" width="200" height="200" alt="">
+                                              <br>
+                                              <br>
+                                            <div class="container" align="center"><h3><p class="name tm-about-name text-center">SUDAGRIP TOS</p></h3></div>
+                                                  
+                                            <p class="tm-about-description">
+                                              Medicamento especialmente para los malestares de la gripe en adultos, presentación jarabe.
+                                              </p>
+                                              <br>
+                                              <br>
+                                              <h1 class="card-title pricing-card-title precio">$/. <span class="">9.20</span></h1>
+                                              <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                                                </div>
+                                              </li>
+                                              <li>  
+                      
+                                                <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/panadolPNG.jpg" width="200" height="200" alt="">
+                                                  <br>
+                                                  <br>
+                                                <div class="container" align="center"><h3><p class="name tm-about-name text-center">Panadol</p></h3></div>
+                                                      
+                                                <p class="tm-about-description">
+                                                  Medicamento para los dolores musculares en adultos presentación en tabletas.
+                                                  </p>
+                                                  <br>
+                                                  <br>
+                                                  <h1 class="card-title pricing-card-title precio">$/. <span class="">4.40</span></h1>
+                                                  <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                                                    </div>
+                                                  </li>
+                                                  <li>  
+                      
+                                                    <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/sudagripePNG.png" width="200" height="200" alt="">
+                                                      <br>
+                                                      <br>
+                                                    <div class="container" align="center"><h3><p class="name tm-about-name text-center">Sudagrip gripal</p></h3></div>
+                                                          
+                                                    <p class="tm-about-description">
+                                                      Medicamento especialmente para los malestares de la gripe en adultos presentación en tabletas.  
+                                                      </p>
+                                                      <br>
+                                                      <br>
+                                                      <h1 class="card-title pricing-card-title precio">$/. <span class="">5.00</span></h1>
+                                                      <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                                                        </div>
+                                                      </li>
+                                                      <li>  
+                      
+                                                        <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/omegaJPG.jpg" width="200" height="200" alt="">
+                                                          <br>
+                                                          <br>
+                                                        <div class="container" align="center"><h3><p class="name tm-about-name text-center">OMEGA 3</p></h3></div>
+                                                              
+                                                        <p class="tm-about-description">
+                                                          Omega 3 fish oil medicamento para el cuidado del corazón presentación en tabletas.  
+                                                          </p>
+                                                          <br>
+                                                          <br>
+                                                          <h1 class="card-title pricing-card-title precio">$/. <span class="">31.00</span></h1>
+                                                          <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                                                            </div>
+                                                          </li>
+                                                          <li>  
+                      
+                                                            <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/oido.JPG" width="200" height="200" alt="">
+                                                              <br>
+                                                              <br>
+                                                            <div class="container" align="center"><h3><p class="name tm-about-name text-center">OTOMIDIL</p></h3></div>
+                                                                  
+                                                            <p class="tm-about-description">
+                                                              Medicamento especialmente para los dolores de oido en presentación de gotero.  
+                                                              </p>
+                                                              <br>
+                                                              <br>
+                                                              <h1 class="card-title pricing-card-title precio">$/. <span class="">13.70</span></h1>
+                                                              <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                                                                </div>
+                                                              </li>
+                                                              <li>  
+                      
+                                                                <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/migrañaJPG.jpg" width="200" height="200" alt="">
+                                                                  <br>
+                                                                  <br>
+                                                                <div class="container" align="center"><h3><p class="name tm-about-name text-center">MIGRAINE</p></h3></div>
+                                                                      
+                                                                <p class="tm-about-description">
+                                                                  Medicamento para los dolores de cabeza cuasando por la migraña, presentación en tableta.
+                                                                  </p>
+                                                                  <br>
+                                                                  <br>
+                                                                  <h1 class="card-title pricing-card-title precio">$/. <span class="">9.00</span></h1>
+                                                                  <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                                                                    </div>
+                                                                  </li>
+                                                                  <li>  
+                      
+                                                                    <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/infecciónJPG.jpg" width="200" height="200" alt="">
+                                                                      <br>
+                                                                      <br>
+                                                                    <div class="container" align="center"><h3><p class="name tm-about-name text-center">odroxef</p></h3></div>
+                                                                          
+                                                                    <p class="tm-about-description">
+                                                                      Medicamento especialmente para controlar infecciones, presentación en tableta.
+                                                                      </p>
+                                                                      <br>
+                                                                      <br>
+                                                                      <h1 class="card-title pricing-card-title precio">$/. <span class="">27.75</span></h1>
+                                                                      <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                                                                        </div>
+                                                                      </li>
+                                                                      <li>  
+                      
+                                                                        <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/ibuprofenoJPG.jpg" width="200" height="200" alt="">
+                                                                          <br>
+                                                                          <br>
+                                                                        <div class="container" align="center"><h3><p class="name tm-about-name text-center">ibuprofeno</p></h3></div>
+                                                                              
+                                                                        <p class="tm-about-description">
+                                                                          El ibuprofeno de venta libre para bajar la fiebre y para aliviar dolores leves.
+                                                                          </p>
+                                                                          <br>
+                                                                          <br>
+                                                                          <h1 class="card-title pricing-card-title precio">$/. <span class="">7.80</span></h1>
+                                                                          <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                                                                            </div>
+                                                                          </li>
+                                                                          <li>  
+                      
+                                                                            <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/higadoJPG.jpg" width="200" height="200" alt="">
+                                                                              <br>
+                                                                              <br>
+                                                                            <div class="container" align="center"><h3><p class="name tm-about-name text-center">hepalive</p></h3></div>
+                                                                                  
+                                                                            <p class="tm-about-description">
+                                                                              Medicamento para contralar y aliviar el higado graso, presentación en tableta.  
+                                                                              </p>
+                                                                              <br>
+                                                                              <br>
+                                                                              <h1 class="card-title pricing-card-title precio">$/. <span class="">40.25</span></h1>
+                                                                              <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                                                                                </div>
+                                                                              </li>
+                                                                              <li>  
+                      
+                                                                                <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/diarreaDiferente.png" width="200" height="200" alt="">
+                                                                                  <br>
+                                                                                  <br>
+                                                                                <div class="container" align="center"><h3><p class="name tm-about-name text-center">topron</p></h3></div>
+                                                                                      
+                                                                                <p class="tm-about-description">
+                                                                                  Medicamento para contralar y aliviar la diarrea, presentación en tableta y jarabe. 
+                                                                                  </p>
+                                                                                  <br>
+                                                                                  <br>
+                                                                                  <h1 class="card-title pricing-card-title precio">$/. <span class="">13.00</span></h1>
+                                                                                  <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                                                                                    </div>
+                                                                                  </li>
+                                                                                  <li>  
+                      
+                                                                                    <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/hemorroidesPNG.png" width="200" height="200" alt="">
+                                                                                      <br>
+                                                                                      <br>
+                                                                                    <div class="container" align="center"><h3><p class="name tm-about-name text-center">fleminec</p></h3></div>
+                                                                                          
+                                                                                    <p class="tm-about-description">
+                                                                                      Medicamento  para contralar y aliviar  las hemorroides, presentación en tableta.  
+                                                                                      </p>
+                                                                                      <br>
+                                                                                      <br>
+                                                                                      <h1 class="card-title pricing-card-title precio">$/. <span class="">10.00</span></h1>
+                                                                                      <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                                                                                        </div>
+                                                                                      </li>
+                                                                                      <li>  
+                      
+                                                                                        <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/diarrea.png" width="200" height="200" alt="">
+                                                                                          <br>
+                                                                                          <br>
+                                                                                        <div class="container" align="center"><h3><p class="name tm-about-name text-center">lomotil</p></h3></div>
+                                                                                              
+                                                                                        <p class="tm-about-description">
+                                                                                          Medicamento para contralar y aliviar los malestares de la diarrea, presentación tableta. 
+                                                                                          </p>
+                                                                                          <br>
+                                                                                          <br>
+                                                                                          <h1 class="card-title pricing-card-title precio">$/. <span class="">7.90</span></h1>
+                                                                                          <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                                                                                            </div>
+                                                                                          </li>
+                                                                                          <li>  
+                      
+                                                                                            <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/gripePNG.png" width="200" height="200" alt="">
+                                                                                              <br>
+                                                                                              <br>
+                                                                                            <div class="container" align="center"><h3><p class="name tm-about-name text-center">TYLENOL</p></h3></div>
+                                                                                                  
+                                                                                            <p class="tm-about-description">
+                                                                                              Contrala y alivia los malestares de la gripe, presentación en tableta para dia y noche. . 
+                                                                                              </p>
+                                                                                              <br>
+                                                                                              <br>
+                                                                                              <h1 class="card-title pricing-card-title precio">$/. <span class="">6.00</span></h1>
+                                                                                              <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                                                                                                </div>
+                                                                                              </li>
+                                                                                              <li>  
+                      
+                                                                                                <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/cabelloJPG.jpg" width="200" height="200" alt="">
+                                                                                                  <br>
+                                                                                                  <br>
+                                                                                                <div class="container" align="center"><h3><p class="name tm-about-name text-center">PRIORIN</p></h3></div>
+                                                                                                      
+                                                                                                <p class="tm-about-description">
+                                                                                                  Tratamiento para controlar y aliviar las molestias de la caspa, presentación en tableta. 
+                                                                                                  </p>
+                                                                                                  <br>
+                                                                                                  <br>
+                                                                                                  <h1 class="card-title pricing-card-title precio">$/. <span class="">8.75</span></h1>
+                                                                                                  <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                                                                                                    </div>
+                                                                                                  </li>
+                                                                                                  <li>  
+                      
+                                                                                                    <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/azitromisinaJPG.jpg" width="200" height="200" alt="">
+                                                                                                      <br>
+                                                                                                      <br>
+                                                                                                    <div class="container" align="center"><h3><p class="name tm-about-name text-center">azitromicina</p></h3></div>
+                                                                                                          
+                                                                                                    <p class="tm-about-description">
+                                                                                                      Tratamiento para infecciones bacterianas, como bronquitis y neumonía.
+                                                                                                      </p>
+                                                                                                      <br>
+                                                                                                      <br>
+                                                                                                      <h1 class="card-title pricing-card-title precio">$/. <span class="">21.00</span></h1>
+                                                                                                      <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                                                                                                        </div>
+                                                                                                      </li>
+                                                                                                      <li>  
+                      
+                                                                                                        <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/brexilJPG.jpg" width="200" height="200" alt="">
+                                                                                                          <br>
+                                                                                                          <br>
+                                                                                                        <div class="container" align="center"><h3><p class="name tm-about-name text-center">BREXIL</p></h3></div>
+                                                                                                              
+                                                                                                        <p class="tm-about-description">
+                                                                                                          Tratamientos indicados para tratar y prevenir deficiencias de microelementos.
+                                                                                                          </p>
+                                                                                                          <br>
+                                                                                                          <br>
+                                                                                                          <h1 class="card-title pricing-card-title precio">$/. <span class="">23.30</span></h1>
+                                                                                                          <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                                                                                                            </div>
+                                                                                                          </li>
+                                                                                                          <li>  
+                      
+                                                                                                            <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/metamorfinaJPG.jpg" width="200" height="200" alt="">
+                                                                                                              <br>
+                                                                                                              <br>
+                                                                                                            <div class="container" align="center"><h3><p class="name tm-about-name text-center">METAFORMINA</p></h3></div>
+                                                                                                                  
+                                                                                                            <p class="tm-about-description">
+                                                                                                              Medicamento especial para diabeticos, su venta es con receta medica. 
+                                                                                                              </p>
+                                                                                                              <br>
+                                                                                                              <br>
+                                                                                                              <h1 class="card-title pricing-card-title precio">$/. <span class="">16.00</span></h1>
+                                                                                                              <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                                                                                                                </div>
+                                                                                                              </li>
+                                                                                                              <li>  
+                      
+                                                                                                                <div class="tm-bg-black-transparent tm-about-box " align="center">	<img src="img/pantoprazolJPG.jpg" width="200" height="200" alt="">
+                                                                                                                  <br>
+                                                                                                                  <br>
+                                                                                                                <div class="container" align="center"><h3><p class="name tm-about-name text-center">pantoprazol</p></h3></div>
+                                                                                                                      
+                                                                                                                <p class="tm-about-description">
+                                                                                                                  Medicamento para tratar el daño de la enfermedad por reflujo gastroesofágico (GERD).  
+            
+                                                                                                                  </p>
+                                                                                                                  <br>
+                                                                                                                  <br>
+                                                                                                                  <h1 class="card-title pricing-card-title precio">$/. <span class="">10.90</span></h1>
+                                                                                                                  <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                                                                                                                    </div>
+                                                                                                                  </li>                                     
+                  
+              </ul>
+            
+                </div>
+              </div>
+
+        </section>
+       
+        <footer class="row">
+            <p class="col-12 text-Black text-center tm-copyright-text tm-bg-white-transparent">
+              Copyright &copy; 2021 Farmacia. 
+              Creado por ULS Ciencias de la Computación, Internet ll </a>
+            </p>
+          </footer>
+        </div>
+        <!-- .container-fluid -->
+      </div>
+  
+      <script src="js/jquery.min.js"></script>
+      <script src="js/parallax.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/sweetalert2.min.js"></script>
+      <script src="js/carrito.js"></script>
+      <script src="js/pedido.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="js/jquery.liveFilter.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$('#directory').liveFilter('#search-box', 'li', { filterChildSelector: '.name'});
+		</script>
+	</body>
+</html>

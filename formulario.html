@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- Created By Praveen Kumar -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+   
+ 
+    <link rel="stylesheet" href="css/estilo.css">
+    
+  </head>
+  <body background="img/fondologin.jpg">
+    
+    <div class="wrapper">
+      <div class="title-text">
+        <div class="title login">
+INICIAR SESION</div>
+<div class="title signup">
+REGISTRATE</div>
+</div>
+<div class="form-container">
+        <div class="slide-controls">
+          <input type="radio" name="slide" id="login" checked>
+          <input type="radio" name="slide" id="signup">
+          <label for="login" class="slide login">Login</label>
+          <label for="signup" class="slide signup">Registro</label>
+          <div class="slider-tab">
+</div>
+</div>
+<div class="form-inner">
+          <form action="#" class="login">
+            <div class="field">
+              <input type="text" placeholder="Correo Electronico" required>
+            </div>
+<div class="field">
+              <input type="password" placeholder="Contraseña" required>
+            </div>
+<div class="pass-link">
+<a href="#">Olvidaste Tu Contraseña?</a></div>
+<div class="field btn">
+              <div class="btn-layer">
+</div>
+<input type="submit" value="Entrar">
+            </div>
+<div class="signup-link">
+No Tienes Cuenta? <a href="">Registrate Aqui</a></div>
+<div class="signup-link">
+  <a href="index.html">Volver a Inicio</a></div>
+  
+
+</form>
+<form action="#" class="signup">
+            <div class="field">
+              <input type="text" placeholder="Nombre" required>
+            </div>
+<div class="field">
+              <input type="email" placeholder="Correo Electronico" required>
+            </div>
+<div class="field">
+              <input type="password" placeholder="Contraseña" required>
+            </div>
+<div class="field btn">
+              <div class="btn-layer">
+</div>
+<input type="submit" value="Enviar">
+            </div>
+</form>
+</div>
+</div>
+</div>
+<script>
+      const loginText = document.querySelector(".title-text .login");
+      const loginForm = document.querySelector("form.login");
+      const loginBtn = document.querySelector("label.login");
+      const signupBtn = document.querySelector("label.signup");
+      const signupLink = document.querySelector("form .signup-link a");
+      signupBtn.onclick = (()=>{
+        loginForm.style.marginLeft = "-50%";
+        loginText.style.marginLeft = "-50%";
+      });
+      loginBtn.onclick = (()=>{
+        loginForm.style.marginLeft = "0%";
+        loginText.style.marginLeft = "0%";
+      });
+      signupLink.onclick = (()=>{
+        signupBtn.click();
+        return false;
+      });
+    </script>
+
+  </body>
+</html>
